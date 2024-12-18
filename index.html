@@ -1,22 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="English">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <div class="preloader"></div> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website - Particle Effect</title>
+  <link rel="icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="logo"><img src="img/logo.png" alt="Tech Company Aeroer Live"></div>
+  </header>
 
-    <link rel="stylesheet" href="start.css" />
+  <!-- Particle Canvas -->
+  <canvas id="particleCanvas"></canvas>
 
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>© 2024 <a href="https://aeroer.live" target="_blank" rel="noopener noreferrer">Aeroer.Live</a></p>
+      <div class="social-links">
+      </div>
+    </div>
+  </footer>
 
-	<body>
-		<div class="particle-container">
-		  <div class="particles"><span class="circle"></span><span class="circle 1"></span><span class="circle 2"></span><span class="circle 3"></span><span class="circle 4"></span><span class="circle 5"></span><span class="circle 6"></span><span class="circle 7"></span><span class="circle 8"></span><span class="circle 9"></span><span class="circle 10"></span><span class="circle 11"></span><span class="circle 12"></span><span class="circle 13"></span><span class="circle 14"></span><span class="circle 15"></span><span class="circle 16"></span><span class="circle 17"></span><span class="circle 18"></span><span class="circle 19"></span><span class="circle 20"></span><span class="circle 21"></span><span class="circle 22"></span><span class="circle 23"></span><span class="circle 24"></span><span class="circle 25"></span><span class="circle 26"></span><span class="circle 27"></span><span class="circle 28"></span><span class="circle 29"></span>
-		  </div>
-		</div>
-	  </body>
+  <!-- Button in bottom-right corner -->
+  <a href="interactive.html"rel="noopener noreferrer">
+    <button class="corner-button">Interactive - Effect</button>
+  </a>
 
-</head>   
+  <script src="animateparticles.js"></script>
 </body>
 </html>
