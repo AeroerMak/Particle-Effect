@@ -2,6 +2,12 @@
 
 <br>
 
-<video width="320" height="240" controls>
-  <source src="img/video/particleeffect .mp4" type="video/mp4">
-</video>
+<img src="img/screen/Particle-Effect01.png" Styles="border-radius: 10px;" alt="Particle-Effect">
+
+<br>
+
+<img src="img/screen/Particle-Effect02.png" Styles="border-radius: 10px;" alt="Particle-Effect">
+
+<br>
+
+<img src="img/screen/Particle-Effect03.png" Styles="border-radius: 10px;" alt="Particle-Effect">
